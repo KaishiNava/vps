@@ -9,7 +9,7 @@ const config = {
   // Set these as Railway Variables. Never commit real secrets here.
   auth: {
     username: process.env.ADMIN_USERNAME || "kyZX",
-    password: process.env.ADMIN_PASSWORD || "adminkyzx112",
+    password: process.env.ADMIN_PASSWORD || "",
     sessionSecret: process.env.SESSION_SECRET || ""
   },
   terminal: {

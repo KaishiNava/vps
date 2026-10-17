@@ -21,7 +21,7 @@ Set these variables in the Railway service settings:
 - `SHELL_PATH` — `/bin/bash`
 - `NODE_ENV` — `production`
 
-Do not put production secrets in `config.js`, source control, screenshots, or chat messages. The default admin password is intentionally empty so login fails closed until configured.
+Do not put production secrets in `config.js`, source control, screenshots, or chat messages. There is no default admin password; login fails closed until `ADMIN_PASSWORD` and `SESSION_SECRET` are configured.
 
 ### 3. Attach a Railway Volume
 

@@ -1,5 +1,5 @@
-import HostApp from "../components/HostApp";
+import HostAppLoader from "../components/HostAppLoader";
 
 export default function Home() {
-  return <HostApp />;
+  return <HostAppLoader />;
 }
