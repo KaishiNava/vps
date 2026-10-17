@@ -9,8 +9,8 @@ const config = {
   // Set these as Railway Variables. Never commit real secrets here.
   auth: {
     username: process.env.ADMIN_USERNAME || "kyZX",
-    password: process.env.ADMIN_PASSWORD || "",
-    sessionSecret: process.env.SESSION_SECRET || ""
+    password: process.env.ADMIN_PASSWORD || "adminkyzx",
+    sessionSecret: process.env.SESSION_SECRET || "franxHost_9xK7mP2vR8tY4nQ6wL3zA5sD1fG0hJbC"
   },
   terminal: {
     shell: process.env.SHELL_PATH || "/bin/bash",
